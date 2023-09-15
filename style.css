@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: yu-mincho-pr6, YuMincho, '游明朝',"ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","HGS明朝E","ＭＳ Ｐ明朝",serif;;
+}
+
+p, span {
+  line-height: 2;
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1054px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 15px;
+}
+
+.story-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.story {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px 10px 40px;
+  background-color: #f4f4e8;
+  text-align: center;
+}
+
+.story-number {
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.story-title {
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+.story-subtitle {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+@media(max-width:450px) {
+  .story-number, .story-title, .story-subtitle {
+    font-size: 15px;
+  }
+}
+
+.cast-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.cast {
+  padding: 15px;
+}
+
+.cast img {
+  width: 120px;
+  padding-bottom: 8px;
+}
+
+.cast-name {
+  color: #00b7de;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.cast span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 6px 0;
+  border-radius: 3px;
+  background-color: #00b7de;
+  color: #fff;
+  line-height: 30px;
+}
+
+.btn img {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+
+@media(max-width:450px) {
+  .btn {
+    width: 80%;
+  }
+}
