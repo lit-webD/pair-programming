@@ -3,7 +3,8 @@
   font-family: "Hiragino Mincho Pro";
 }
 
-p, span {
+p,
+span {
   line-height: 2;
 }
 
@@ -55,8 +56,10 @@ h2 {
   font-size: 15px;
 }
 
-@media(max-width:450px) {
-  .story-number, .story-title, .story-subtitle {
+@media (max-width: 450px) {
+  .story-number,
+  .story-title,
+  .story-subtitle {
     font-size: 15px;
   }
 }
@@ -99,19 +102,27 @@ h2 {
   color: #fff;
   font-size: 17px;
   line-height: 42px;
+  transition: all 0.2s ease-in-out;
+  svg {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    display: block;
+    width: 15px;
+    height: 15px;
+    fill: #fff;
+  }
+  &:hover {
+    color: #00b7de;
+    background-color: #fff;
+    svg {
+      fill: #00b7de;
+    }
+  }
 }
 
-.btn img {
-  position: absolute;
-  top: 50%;
-  right: 20%;
-  transform: translateY(-50%);
-  display: block;
-  width: 15px;
-  height: 15px;
-}
-
-@media(max-width:450px) {
+@media (max-width: 450px) {
   .btn {
     width: 80%;
   }
