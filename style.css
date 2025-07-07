@@ -73,6 +73,16 @@ h2 {
 
 .cast {
   padding: 15px;
+  &:nth-of-type(even) {
+    img {
+      box-shadow: 8px 8px #57b9bc;
+    }
+  }
+  &:nth-of-type(odd) {
+    img {
+      box-shadow: 8px 8px #d1d7b7;
+    }
+  }
 }
 
 .cast img {
