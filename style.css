@@ -89,7 +89,6 @@ span {
 
 .cast-image {
   width: 120px;
-  padding-bottom: 8px;
 }
 
 .cast-name {
@@ -115,6 +114,7 @@ span {
   font-size: 17px;
   line-height: 42px;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
   svg {
     position: absolute;
     top: 50%;
