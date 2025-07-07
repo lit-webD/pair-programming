@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Hiragino Mincho Pro";
 }
 
@@ -8,7 +10,7 @@ span {
   line-height: 2;
 }
 
-h2 {
+.section-title {
   margin-bottom: 40px;
   font-size: 19px;
   letter-spacing: 6px;
@@ -74,18 +76,18 @@ h2 {
 .cast {
   padding: 15px;
   &:nth-of-type(even) {
-    img {
+    .cast-image {
       box-shadow: 8px 8px #57b9bc;
     }
   }
   &:nth-of-type(odd) {
-    img {
+    .cast-image {
       box-shadow: 8px 8px #d1d7b7;
     }
   }
 }
 
-.cast img {
+.cast-image {
   width: 120px;
   padding-bottom: 8px;
 }
